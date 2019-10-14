@@ -4,7 +4,8 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import Profile from './pages/Profile'
-import NotFound from './pages/NotFound/index'
+import NotFound from './pages/NotFound'
+import PersonOverview from './pages/PersonOverview'
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
@@ -12,6 +13,7 @@ const routing = (
         <Switch>
             <Route exact path="/" component={App} />
             <Route exact path="/profile" component={Profile} />
+            <Route exact path="/overview" component={PersonOverview} />
             <Route path="*" component={NotFound} />
         </Switch>
     </Router>

@@ -12,8 +12,8 @@ export default function NavBar() {
             <div className="navbar__entries">
                 <NavBarItem to="/" title="Home" />
                 <NavBarItem to="/profile" title="Profile" />
+                <NavBarItem to="/overview" title="Overview" />
             </div>
-
         </div>
     )
 }
