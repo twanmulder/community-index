@@ -2,6 +2,7 @@ import React from 'react'
 import './style.scss'
 
 import NavBarItem from '../NavBarItem'
+import ProfileIcon from '../ProfileIcon'
 
 export default function NavBar() {
     return (
@@ -11,8 +12,10 @@ export default function NavBar() {
             </div>
             <div className="navbar__entries">
                 <NavBarItem to="/" title="Home" />
-                <NavBarItem to="/profile" title="Profile" />
                 <NavBarItem to="/overview" title="Overview" />
+                <div className="navbar__entry">
+                    <ProfileIcon />
+                </div>
             </div>
         </div>
     )
