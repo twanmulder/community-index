@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.scss'
 
+import NavBarItem from '../NavBarItem'
+
 export default function NavBar() {
     return (
         <div className="navbar__wrapper">
@@ -8,12 +10,8 @@ export default function NavBar() {
                 Community Index
             </div>
             <div className="navbar__entries">
-                <div className="navbar__entry">
-                    Entry 0
-                </div>
-                <div className="navbar__entry">
-                    Entry 1
-                </div>
+                <NavBarItem to="/" title="Home" />
+                <NavBarItem to="/profile" title="Profile" />
             </div>
 
         </div>
