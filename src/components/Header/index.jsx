@@ -1,20 +1,9 @@
 import React from 'react'
 import './style.scss'
 
-export default function index() {
+export default function Header() {
     return (
-        <div className="common-header-wrapper">
-            <div className="common-header-logo">
-                bzfdgfzds
-            </div>
-            <div className="common-header-entries">
-                <div className="common-header-entry">
-                    Bla
-                </div>
-                <div className="common-header-entry">
-                    sdfsadf
-                </div>
-            </div>
+        <div className="header__wrapper" style={{ backgroundImage: "url('https://source.unsplash.com/random')" }}>
 
         </div>
     )
