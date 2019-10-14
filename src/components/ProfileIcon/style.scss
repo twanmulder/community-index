@@ -1,0 +1,22 @@
+@import '../../variables.scss';
+
+$m: "profile-icon";
+
+$border-size: 2px;
+
+.#{$m} {
+    &__image {
+        width: 40px;
+        height: 40px;
+        border: $border-size solid rgba($secondary-color, .5);
+        border-radius: 50px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:hover {
+        .#{$m}__image {
+            border: $border-size solid $accent-color;
+        }
+    }
+}
