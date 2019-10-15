@@ -1,7 +1,9 @@
 @import '../../variables.scss';
 
+$break-medium: 640px;
+
 .navbar_ {
-    
+
     &_wrapper {
         display: flex;
         width: 100%;
@@ -10,8 +12,9 @@
         position: fixed;
         top: 0;
         flex-direction: row;
-     
+
     }
+
     &_logo {
         padding: 2rem;
         height: 4rem;
@@ -20,11 +23,23 @@
         display: flex;
         align-items: center;
     }
+
+    &_show,
+    &_label {
+        float: right;
+        display: none;
+        height: 4rem;
+        padding: 1rem;
+        align-items: center;
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+
     &_entries {
         display: flex;
         flex-grow: 2;
         flex-direction: row;
-        justify-content:flex-end;
+        justify-content: flex-end;
         align-items: center;
 
         a {
@@ -39,7 +54,33 @@
                 text-decoration: underline;
             }
         }
+
+        @media screen and (max-width: $break-medium) {
+
+            display: none;
+            position: absolute;
+            width: 100%;
+            background: #000;
+            top: 4rem;
+
+            a{
+                width: 100%;
+            }
+
+            @at-root.label {
+                display: block;
+                color: #fff;
+            }
+
+            @at-root.navbar__show {
+                &:checked~.navbar__entries {
+                    display: block;
+                }
+            }
+
+        }
     }
+
     &_entry {
         height: 4rem;
         padding: 1rem;
@@ -48,6 +89,5 @@
         font-size: 1.2em;
         cursor: pointer;
     }
-   
-    
+
 }
