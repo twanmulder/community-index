@@ -9,6 +9,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "react-progressive-image": "^0.6.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.1.2",
     "set-value": "^2.0.1"
