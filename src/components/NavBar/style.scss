@@ -12,7 +12,7 @@ $break-medium: 640px;
         position: fixed;
         top: 0;
         flex-direction: row;
-
+        z-index: 10;
     }
 
     &_logo {
