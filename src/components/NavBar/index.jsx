@@ -10,6 +10,8 @@ export default function NavBar() {
             <div className="navbar__logo">
                 Community Index
             </div>
+            <label className="label navbar__entry" htmlFor="show">&#9776; Menu</label>
+            <input className="navbar__show" id="show" type="checkbox" />
             <div className="navbar__entries">
                 <NavBarItem to="/" title="Home" />
                 <NavBarItem to="/overview" title="Overview" />
