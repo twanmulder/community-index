@@ -1,9 +1,9 @@
 import React from 'react'
-import NavBar from '../NavBar'
-import Header from '../Header'
-import Footer from '../Footer'
+import NavBar from '../NavBar/NavBar'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
-import './style.scss'
+import './Layout.scss'
 
 export default function index(props) {
     return (

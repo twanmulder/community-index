@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar'
-import Header from './components/Header'
-import ProfilePreview from './components/ProfilePreview'
-import Layout from './components/Layout'
-import Meta from './components/Meta'
+import ProfilePreview from './components/ProfilePreview/ProfilePreview'
+import Layout from './components/Layout/Layout'
+import Meta from './components/Meta/Meta'
 
 function App() {
   return (

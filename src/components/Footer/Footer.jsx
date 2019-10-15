@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBarItem from './../NavBarItem'
-import './style.scss'
+import NavBarItem from './../NavBarItem/NavBarItem'
+import './Footer.scss'
 
 const Footer = ({ links }) =>
   <div className="footer">

@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import './index.css';
 import App from './App';
-import Profile from './pages/Profile'
-import NotFound from './pages/NotFound'
-import PersonOverview from './pages/PersonOverview'
+import Profile from './pages/Profile/Profile'
+import NotFound from './pages/NotFound/NotFound'
+import PersonOverview from './pages/PersonOverview/PersonOverview'
 import * as serviceWorker from './serviceWorker';
 
 const routing = (

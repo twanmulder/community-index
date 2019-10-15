@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import './style.scss'
+import './ProfileIcon.scss'
 
 export default function index() {
     const image = 'https://i.pravatar.cc/150'

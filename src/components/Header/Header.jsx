@@ -1,5 +1,5 @@
-import React from 'react' 
-import './style.scss'
+import React from 'react'
+import './Header.scss'
 import ProgressiveImage from 'react-progressive-image';
 
 export default function Header() {

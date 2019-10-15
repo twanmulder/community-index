@@ -1,8 +1,8 @@
 import React from 'react'
-import './style.scss'
+import './NavBar.scss'
 
-import NavBarItem from '../NavBarItem'
-import ProfileIcon from '../ProfileIcon'
+import NavBarItem from '../NavBarItem/NavBarItem'
+import ProfileIcon from '../ProfileIcon/ProfileIcon'
 
 export default function NavBar() {
     return (
