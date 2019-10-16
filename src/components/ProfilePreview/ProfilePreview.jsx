@@ -1,5 +1,5 @@
-import React from "react";
-import "./ProfilePreview.scss";
+import React from 'react'
+import './ProfilePreview.scss'
 
 export default function ProfilePreview({ full_name, username }) {
   return (
@@ -11,5 +11,5 @@ export default function ProfilePreview({ full_name, username }) {
         <p>{username}</p>
       </div>
     </div>
-  );
+  )
 }
