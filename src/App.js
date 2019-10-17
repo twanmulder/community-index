@@ -30,7 +30,7 @@ function App() {
   return (
     <Layout>
       <Meta title="Home" />
-      <div style={{ height: '150vh' }}>
+      <div className="profile-preview-grid">
         {userProfiles &&
           userProfiles.map(userData => (
             <ProfilePreview
